@@ -26,6 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         // firebase
         FIRApp.configure()
 
+        createNavigation()
         
         return true
     }

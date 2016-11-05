@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '1301BC1C2C487564E903A1CE642B02A5'
-               BlueprintName = 'SwiftQRCode'
+               BlueprintIdentifier = '5C7D108C64EF0FC5CB01BC39965AC324'
+               BlueprintName = 'FontAwesome'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'SwiftQRCode.framework'>
+               BuildableName = 'FontAwesome.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

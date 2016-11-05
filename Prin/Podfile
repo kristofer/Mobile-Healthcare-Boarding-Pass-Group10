@@ -10,5 +10,7 @@ target 'Prin' do
   pod 'SwiftQRCode'
   pod 'Eureka', '~> 2.0.0-beta.1'
   pod 'RealmSwift'
+  # pod 'Sodium'
+  pod 'FontAwesome'
   
 end
