@@ -1,5 +1,5 @@
 //
-//  FolderDetailVC.swift
+//  ICEVC.swift
 //  Prin
 //
 //  Created by Kristofer Younger on 11/5/16.
@@ -8,12 +8,10 @@
 
 import UIKit
 
-class FolderDetailVC: UIViewController {
+class ICEVC: UIViewController {
 
-    let showDocSegue = "showDocSegue"
+    // In case of emergency 
     
-    @IBOutlet weak var tableView: UITableView!
-
     override func viewDidLoad() {
         super.viewDidLoad()
 

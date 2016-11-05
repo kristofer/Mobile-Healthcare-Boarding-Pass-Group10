@@ -1,5 +1,5 @@
 //
-//  FolderDetailVC.swift
+//  DocVC.swift
 //  Prin
 //
 //  Created by Kristofer Younger on 11/5/16.
@@ -8,12 +8,9 @@
 
 import UIKit
 
-class FolderDetailVC: UIViewController {
+class DocVC: UIViewController {
 
-    let showDocSegue = "showDocSegue"
-    
-    @IBOutlet weak var tableView: UITableView!
-
+    @IBOutlet weak var webView: UIWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
