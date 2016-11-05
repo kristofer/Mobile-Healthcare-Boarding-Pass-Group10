@@ -32,6 +32,7 @@
 		5CADDFF71DCE47E0003D8E53 /* FolderDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CADDFF61DCE47E0003D8E53 /* FolderDetail.storyboard */; };
 		5CADDFF91DCE4832003D8E53 /* DocVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CADDFF81DCE4832003D8E53 /* DocVC.swift */; };
 		5CADDFFB1DCE4B4B003D8E53 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CADDFFA1DCE4B4B003D8E53 /* DataModel.swift */; };
+		5CADDFFD1DCE7013003D8E53 /* QRCode.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CADDFFC1DCE7013003D8E53 /* QRCode.jpg */; };
 		6EDEC11C1DCD5FCB009D8434 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEC11B1DCD5FCB009D8434 /* AppDelegate.swift */; };
 		6EDEC11E1DCD5FCB009D8434 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEC11D1DCD5FCB009D8434 /* MasterViewController.swift */; };
 		6EDEC1201DCD5FCB009D8434 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEC11F1DCD5FCB009D8434 /* DetailViewController.swift */; };
@@ -71,6 +72,7 @@
 		5CADDFF61DCE47E0003D8E53 /* FolderDetail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FolderDetail.storyboard; sourceTree = "<group>"; };
 		5CADDFF81DCE4832003D8E53 /* DocVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocVC.swift; sourceTree = "<group>"; };
 		5CADDFFA1DCE4B4B003D8E53 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		5CADDFFC1DCE7013003D8E53 /* QRCode.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = QRCode.jpg; sourceTree = "<group>"; };
 		6EDEC1181DCD5FCB009D8434 /* Prin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EDEC11B1DCD5FCB009D8434 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6EDEC11D1DCD5FCB009D8434 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				6EDEC12F1DCD62AD009D8434 /* prin.png */,
+				5CADDFFC1DCE7013003D8E53 /* QRCode.jpg */,
 				6EDEC11B1DCD5FCB009D8434 /* AppDelegate.swift */,
 				6EDEC11D1DCD5FCB009D8434 /* MasterViewController.swift */,
 				6EDEC11F1DCD5FCB009D8434 /* DetailViewController.swift */,
@@ -249,6 +252,7 @@
 				6EDEC1301DCD62AD009D8434 /* prin.png in Resources */,
 				5CADDFD11DCE2A46003D8E53 /* FontAwesome.ttf in Resources */,
 				5CADDFD91DCE3154003D8E53 /* Profiles.storyboard in Resources */,
+				5CADDFFD1DCE7013003D8E53 /* QRCode.jpg in Resources */,
 				5CADDFF71DCE47E0003D8E53 /* FolderDetail.storyboard in Resources */,
 				5CADDFD51DCE3131003D8E53 /* Share.storyboard in Resources */,
 				6EDEC1281DCD5FCB009D8434 /* LaunchScreen.storyboard in Resources */,

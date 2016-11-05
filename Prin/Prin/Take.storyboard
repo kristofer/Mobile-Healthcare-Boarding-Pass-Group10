@@ -25,10 +25,19 @@
                                 <rect key="frame" x="102" y="494" width="171" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Receive Info from Doctor"/>
+                                <connections>
+                                    <action selector="recieveInfo:" destination="SN0-JK-Htu" eventType="touchUpInside" id="IPn-fG-Zwl"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B9v-bD-wtf">
                                 <rect key="frame" x="12" y="138" width="350" height="334"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="QRCode.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Zvj-KW-0GS">
+                                        <rect key="frame" x="0.0" y="0.0" width="350" height="334"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Current Profile Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="76Q-gF-qYj">
@@ -53,7 +62,7 @@
         <!--Accept Info From Doctor?-->
         <scene sceneID="jwH-ud-hjR">
             <objects>
-                <viewController id="Hb5-DP-xM4" sceneMemberID="viewController">
+                <viewController id="Hb5-DP-xM4" customClass="ConfirmTakeVC" customModule="Prin" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="p4H-SY-iSZ"/>
                         <viewControllerLayoutGuide type="bottom" id="WwR-gw-Yec"/>
@@ -98,6 +107,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Accept Info From Doctor?" id="uvC-8S-kOj"/>
+                    <connections>
+                        <outlet property="attachs" destination="tQK-Dd-Pbi" id="xaE-xb-sFW"/>
+                        <outlet property="currentName" destination="kzX-wP-aBQ" id="vqH-7z-SQL"/>
+                        <outlet property="summaryTest" destination="QvP-fQ-eTU" id="pOX-yi-gjo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k8K-Qb-dCb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -140,4 +154,7 @@
             <point key="canvasLocation" x="-87.200000000000003" y="134.48275862068968"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="QRCode.jpg" width="500" height="667"/>
+    </resources>
 </document>

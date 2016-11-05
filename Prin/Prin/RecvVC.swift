@@ -12,6 +12,9 @@ class RecvVC: UIViewController {
 
     let confirmTakeSegue = "confirmTakeSegue"
     
+    @IBAction func recieveInfo(_ sender: Any) {
+        self.performSegue(withIdentifier: confirmTakeSegue, sender: nil)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
