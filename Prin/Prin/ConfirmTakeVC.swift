@@ -25,6 +25,7 @@ class ConfirmTakeVC: UIViewController, UITableViewDelegate, UITableViewDataSourc
         self.attachs.delegate = self
         
         // Do any additional setup after loading the view.
+        self.summaryTest.text = "This visit with Dr Morgan on Nov 5th, 2016, has a few attachments with things you may need to attend to."
     }
 
     override func didReceiveMemoryWarning() {
