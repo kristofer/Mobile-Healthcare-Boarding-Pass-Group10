@@ -27,6 +27,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         FIRApp.configure()
 
         createNavigation()
+        createProfiles()
+        createProviders()
+        createFolders()
         
         return true
     }

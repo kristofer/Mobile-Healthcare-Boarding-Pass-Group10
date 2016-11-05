@@ -31,10 +31,9 @@ class Profile: Object {
         }
     }
 // Specify properties to ignore (Realm won't persist these)
-    
-//  override static func ignoredProperties() -> [String] {
-//    return []
-//  }
+    override static func ignoredProperties() -> [String] {
+        return ["thumbnail"]
+    }
     
     func name() -> String {
         return "\(self.firstname) \(self.lastname)"
@@ -184,7 +183,7 @@ func createProviders() {
     
     
     try! realm.write {
-        realm.delete((realm.objects(Profile.self)))
+        realm.delete((realm.objects(Provider.self)))
         realm.add(morgan)
         realm.add(papastavros)
         realm.add(penman)
@@ -215,7 +214,32 @@ class DocumentPDF: Object {
             thumbnailData = UIImagePNGRepresentation(newImage!)
         }
     }
+ 
+    override static func ignoredProperties() -> [String] {
+        return ["thumbnail"]
+      }
+
+}
+
+func createFolders() {
+    let realm = try! Realm()
     
+    let demoDoc = DocumentPDF()
+    demoDoc.name = "Lab Results, Lab Corp #1355"
+    
+    let appt = Folder()
+    appt.name = "April 23rd Visit to Morgan"
+    appt.docs.append(demoDoc)
+    
+    let appt2 = Folder()
+    appt2.name = "June 12th: Penman"
+    appt2.docs.append(demoDoc)
+    
+    try! realm.write {
+        realm.delete((realm.objects(Folder.self)))
+        realm.add(appt)
+        realm.add(appt2)
+    }
 }
 
 

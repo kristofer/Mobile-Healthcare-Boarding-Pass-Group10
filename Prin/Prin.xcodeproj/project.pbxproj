@@ -31,7 +31,7 @@
 		5CADDFF51DCE46C8003D8E53 /* ICEVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CADDFF41DCE46C8003D8E53 /* ICEVC.swift */; };
 		5CADDFF71DCE47E0003D8E53 /* FolderDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CADDFF61DCE47E0003D8E53 /* FolderDetail.storyboard */; };
 		5CADDFF91DCE4832003D8E53 /* DocVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CADDFF81DCE4832003D8E53 /* DocVC.swift */; };
-		5CADDFFB1DCE4B4B003D8E53 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CADDFFA1DCE4B4B003D8E53 /* Profile.swift */; };
+		5CADDFFB1DCE4B4B003D8E53 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CADDFFA1DCE4B4B003D8E53 /* DataModel.swift */; };
 		6EDEC11C1DCD5FCB009D8434 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEC11B1DCD5FCB009D8434 /* AppDelegate.swift */; };
 		6EDEC11E1DCD5FCB009D8434 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEC11D1DCD5FCB009D8434 /* MasterViewController.swift */; };
 		6EDEC1201DCD5FCB009D8434 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEC11F1DCD5FCB009D8434 /* DetailViewController.swift */; };
@@ -70,7 +70,7 @@
 		5CADDFF41DCE46C8003D8E53 /* ICEVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICEVC.swift; sourceTree = "<group>"; };
 		5CADDFF61DCE47E0003D8E53 /* FolderDetail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FolderDetail.storyboard; sourceTree = "<group>"; };
 		5CADDFF81DCE4832003D8E53 /* DocVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocVC.swift; sourceTree = "<group>"; };
-		5CADDFFA1DCE4B4B003D8E53 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		5CADDFFA1DCE4B4B003D8E53 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		6EDEC1181DCD5FCB009D8434 /* Prin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EDEC11B1DCD5FCB009D8434 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6EDEC11D1DCD5FCB009D8434 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -150,7 +150,7 @@
 				6EDEC1311DCD6635009D8434 /* notes.md */,
 				6EDEC1331DCD69C6009D8434 /* GoogleService-Info.plist */,
 				5CADDFC71DCE2401003D8E53 /* NavNuggets.swift */,
-				5CADDFFA1DCE4B4B003D8E53 /* Profile.swift */,
+				5CADDFFA1DCE4B4B003D8E53 /* DataModel.swift */,
 				5CADDFC91DCE2A32003D8E53 /* utils */,
 				5CADDFD21DCE2B1A003D8E53 /* Miscellaneous.swift */,
 				5CADDFD41DCE3131003D8E53 /* Share.storyboard */,
@@ -318,7 +318,7 @@
 				5CADDFF11DCE390D003D8E53 /* FolderDetailVC.swift in Sources */,
 				5CADDFDF1DCE31CB003D8E53 /* ProfilesVC.swift in Sources */,
 				5CADDFE11DCE3219003D8E53 /* ShareVC.swift in Sources */,
-				5CADDFFB1DCE4B4B003D8E53 /* Profile.swift in Sources */,
+				5CADDFFB1DCE4B4B003D8E53 /* DataModel.swift in Sources */,
 				5CADDFF51DCE46C8003D8E53 /* ICEVC.swift in Sources */,
 				5CADDFED1DCE3860003D8E53 /* AddProfileVC.swift in Sources */,
 				5CADDFCF1DCE2A46003D8E53 /* HFDateExtensions.swift in Sources */,

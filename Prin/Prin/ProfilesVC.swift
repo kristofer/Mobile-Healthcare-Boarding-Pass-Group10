@@ -30,7 +30,9 @@ class ProfilesVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         self.tableView.dataSource = self
         self.tableView.delegate = self
         
-        self.currentProfile.text = self.objects?[0].name()
+        if (self.objects?.count)! > 0 {
+            self.currentProfile.text = self.objects?[0].name()
+        }
         
         // Do any additional setup after loading the view.
     }
