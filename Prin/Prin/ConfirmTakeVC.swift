@@ -9,7 +9,7 @@
 import UIKit
 import RealmSwift
 
-class ConfirmTakeVC: UIViewController {
+class ConfirmTakeVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var currentName: UILabel!
     @IBOutlet weak var summaryTest: UITextView!
@@ -21,6 +21,8 @@ class ConfirmTakeVC: UIViewController {
         super.viewDidLoad()
 
         createPDFs()
+        self.attachs.dataSource = self
+        self.attachs.delegate = self
         
         // Do any additional setup after loading the view.
     }

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ConfirmShareVC: UIViewController {
+class ConfirmShareVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     let enableShareSegue = "enableShareSegue"
     var object: String!
@@ -26,6 +26,8 @@ class ConfirmShareVC: UIViewController {
 
         self.textRequest.text = defaultText
         self.nameLabel.text = "Alison Walker"
+        self.tableView.dataSource = self
+        self.tableView.delegate = self
         // Do any additional setup after loading the view.
     }
 

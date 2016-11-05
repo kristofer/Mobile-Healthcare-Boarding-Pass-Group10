@@ -236,6 +236,7 @@ func createFolders() {
     appt2.docs.append(demoDoc)
     
     try! realm.write {
+        realm.delete((realm.objects(DocumentPDF.self)))
         realm.delete((realm.objects(Folder.self)))
         realm.add(appt)
         realm.add(appt2)

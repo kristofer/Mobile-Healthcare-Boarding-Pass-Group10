@@ -12,7 +12,7 @@ import SwiftQRCode
 class ShareVC: UIViewController {
 
     let confirmShareSegue = "confirmShareSegue"
-    let scanner = QRCode()
+    //let scanner = QRCode()
 
     @IBOutlet weak var scannerView: UIView!
     

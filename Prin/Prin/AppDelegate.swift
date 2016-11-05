@@ -23,9 +23,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         splitViewController.delegate = self
         
         
-        // firebase
-        FIRApp.configure()
-
         createNavigation()
         createProfiles()
         createProviders()

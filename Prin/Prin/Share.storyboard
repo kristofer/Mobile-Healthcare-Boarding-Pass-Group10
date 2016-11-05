@@ -99,13 +99,23 @@
                                 <rect key="frame" x="0.0" y="310" width="375" height="272"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="FgO-cR-dx3">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FgO-cR-dx3" id="1ss-JT-Z0G">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="nameLabel" destination="hyS-Ax-JqT" id="UEK-qm-M8u"/>
-                        <outlet property="tableView" destination="YnW-h3-7mL" id="Gaa-cA-fIG"/>
+                        <outlet property="tableView" destination="YnW-h3-7mL" id="BSS-Fa-wjr"/>
                         <outlet property="textRequest" destination="iHZ-B6-2QO" id="0We-X8-VC8"/>
                         <segue destination="fDk-OQ-C4g" kind="show" identifier="enableShareSegue" id="YkA-7B-cSj"/>
                     </connections>
